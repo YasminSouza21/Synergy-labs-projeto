@@ -1,7 +1,8 @@
 @import url('../styles.css');
 
 #header.page-home {
-    background-image: url("../../images/background-header.jpg") ;
+    background: url(../../images/backgroud-home2.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 #customers {
@@ -28,16 +29,4 @@
     max-width: 1000px;
 }
 
-#team {
-    background-color: rgb(84, 209, 84);
-    color: white;
-}
 
-#team h2:after {
-    background-color: rgb(255, 255, 255);
-}
-
-#team .img-box-round {
-    width: 120px;
-    height: 120px;
-}
