@@ -84,12 +84,12 @@ body {
 }
 
 #footer {
-    background-color: rgb(51, 51, 51);
+    background-color:#091d48;
     text-align: left;
 }
 
 #footer, #footer a {
-    color: rgb(204, 204, 204);
+    color:#091d48;
 }
 
 #footer h3, #footer nav li {
