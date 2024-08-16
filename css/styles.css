@@ -92,12 +92,16 @@ body {
 }
 
 #footer {
+<<<<<<< HEAD
     background-color: #091d48;
+=======
+    background-color:#091d48;
+>>>>>>> 833404eea9ffecc67f7a17b5ffda3b433c83118a
     text-align: left;
 }
 
 #footer, #footer a {
-    color: rgb(204, 204, 204);
+    color:#091d48;
 }
 
 #footer h3, #footer nav li {
