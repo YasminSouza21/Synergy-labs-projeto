@@ -37,6 +37,9 @@ p {
 }
 
 .row {
+    display: flex;
+    align-items: center;
+    justify-content: start;
     margin-left: -15px;
     margin-right: -15px
 }
@@ -50,6 +53,15 @@ p {
 .row:after {
     clear: both
 }
+
+.row img {
+    max-width: 200px;
+}
+
+a.btn {
+    background-color: #24325c;
+}
+
 
 .col {
     position: relative;
@@ -193,7 +205,7 @@ p {
 }
 
 .btn {
-    background-color: rgb(84, 209, 84);
+    background-color: #24325c;
     color: #fff;
     display: inline-block;
     border-radius: 30px;
@@ -204,8 +216,9 @@ p {
     cursor: pointer
 }
 
+
 .btn:hover {
-    background-color: rgb(84, 180, 84)
+    background-color: #2f3750;
 }
 
 .btn.orange {
@@ -240,6 +253,11 @@ h2:after {
 .text-left {
     text-align: left
 }
+
+.text-left h3{
+    color: #091d48;
+}
+
 
 .icon-container {
     display: inline-block;
@@ -277,6 +295,10 @@ h2:after {
     margin-bottom: 10px
 }
 
+#funcionalidades h2{
+    color: #091d48;
+}
+
 nav ul,
 nav ul li {
     list-style: none;
@@ -308,7 +330,7 @@ body {
 
 #header nav a:hover,
 #header nav a.active {
-    background-color: rgba(84, 209, 84, 0.3)
+    background-color: #3976cba4;
 }
 
 #header h1 {
@@ -353,29 +375,32 @@ body {
 }
 
 .section-center {
-    text-align: center
+    text-align: center;
+    font-size: 1rem;
+
 }
 
+
 #footer {
-    background-color: rgb(51, 51, 51);
-    text-align: left
+    background-color: #091d48;
+    text-align: left;
 }
 
 #footer,
 #footer a {
-    color: rgb(204, 204, 204)
+    color: rgb(204, 204, 204);
 }
 
 #footer h3,
 #footer nav li {
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 #footer h3:after {
     content: '';
     display: block;
     border-bottom: 2px solid rgb(204, 204, 204);
-    width: 30px
+    width: 30px;
 }
 
 #footer nav li {
@@ -409,9 +434,32 @@ body {
 
 #copyright {
     text-align: center;
-    background-color: rgb(34, 34, 34);
-    padding: 10px
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    color: #000;
 }
+
+#container-footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#subcontainer-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 100px;
+}
+
+#subcontainer-footer ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
 
 @media (max-width:992px) {
 
@@ -422,7 +470,8 @@ body {
 }
 
 #header.page-produto {
-    background-image: url(../../images/background-produto.jpg)
+    background: url(../../images/backgroud-home2.jpg) no-repeat center center;
+    background-size: cover;
 }
 
 #download {
