@@ -15,6 +15,10 @@
 @import url('menu.css');
 
 body {
+<<<<<<< HEAD
+    font-family: "Ubuntu", sans-serif;
+=======
+>>>>>>> 8a29decbd6ef8cdf15f321488a924be24b29e73a
     color: rgb(130, 130, 130);
     line-height: 25px;
 }
@@ -25,7 +29,7 @@ body {
 }
 
 #header .btn:hover {
-    background-color: rgb(84, 180, 84);
+    background-color:#3976cba4;
 }
 
 #header nav a {
@@ -36,7 +40,11 @@ body {
 }
 
 #header nav a:hover, #header nav a.active {
+<<<<<<< HEAD
+    background-color: #3976cba4;
+=======
     background-color: rgba(209, 84, 84, 0.3);
+>>>>>>> 8a29decbd6ef8cdf15f321488a924be24b29e73a
 }
 
 #header h1 {
@@ -84,12 +92,16 @@ body {
 }
 
 #footer {
-    background-color: rgb(51, 51, 51);
+<<<<<<< HEAD
+    background-color: #091d48;
+=======
+    background-color:#091d48;
+>>>>>>> 833404eea9ffecc67f7a17b5ffda3b433c83118a
     text-align: left;
 }
 
 #footer, #footer a {
-    color: rgb(204, 204, 204);
+    color:#091d48;
 }
 
 #footer h3, #footer nav li {
