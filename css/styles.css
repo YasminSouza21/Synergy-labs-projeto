@@ -6,6 +6,7 @@
     ordem
 */
 
+
 @import url('reset.css');
 @import url('grid.css');
 @import url('buttons.css');
@@ -14,7 +15,6 @@
 @import url('menu.css');
 
 body {
-    font-family: 'Open Sans', sans-serif;
     color: rgb(130, 130, 130);
     line-height: 25px;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 #header nav a:hover, #header nav a.active {
-    background-color: rgba(84, 209, 84, 0.3);
+    background-color: rgba(209, 84, 84, 0.3);
 }
 
 #header h1 {
