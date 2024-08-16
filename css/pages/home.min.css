@@ -447,13 +447,13 @@ body {
 }
 
 #customers {
-    background-color: rgb(242, 242, 242)
+    background-color: #b2cdec7a;
+    color: black;
 }
 
 #customers .btn {
     margin-top: 80px;
-    background-color: rgb(220, 220, 220);
-    color: rgb(130, 130, 130)
+    background-color: #24325c;
 }
 
 #customers .btn:hover {
@@ -471,7 +471,7 @@ body {
 }
 
 #team {
-    background-color: #b2cdec7a;
+    background-color: rgb(242, 242, 242);
     color: #24325c
 }
 
@@ -517,4 +517,8 @@ body {
     align-items: center;
     justify-content: center;
     width: 20rem;
+}
+
+#copyright{
+    background-color: rgb(242, 242, 242);
 }
